@@ -5,10 +5,15 @@ export default function HomeScreen({ navigation }) {
   return (
     <View>
       <Text>Bem vinda(o) ao nosso app</Text>
-      <Button 
-        on Press={() => {
+      <text>
+        .
+      </text>
+      <Button
+        onPress={() => {
           navigation.navigate("LoginScreen");
         }}
+        mode="contained"
+      
       >
         Login
       </Button>
